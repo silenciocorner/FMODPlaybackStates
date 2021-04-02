@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8698400358407320880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: D:\Git Projects\FMODTutorials\FMOD Playback States\Assets\FMOD Projekt\FMOD
+    Playback States\Build\Desktop\Master.bank
+  SubDir: 
+  lastModified: 636987282106518167
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 582304
+  Exists: 1
+--- !u!114 &-5415266884398863976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/playbackstate-event
+  m_EditorClassIdentifier: 
+  Path: event:/playbackstate-event
+  guid: 4d7f6be20caf2641acd17f8719c62597
+  Banks:
+  - {fileID: -8698400358407320880}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 54084
+--- !u!114 &-1652471528613081776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sustain-event
+  m_EditorClassIdentifier: 
+  Path: event:/sustain-event
+  guid: ca00280d28100443ac320362249fef30
+  Banks:
+  - {fileID: -8698400358407320880}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 6104
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 6944456191413318539}
+  - {fileID: -8698400358407320880}
+  EditorEvents:
+  - {fileID: -5415266884398863976}
+  - {fileID: -1652471528613081776}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -8698400358407320880}
+  StringsBanks:
+  - {fileID: 6944456191413318539}
+  stringsBankWriteTime: 636987282106538161
+  cacheVersion: 3
+--- !u!114 &6944456191413318539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: D:\Git Projects\FMODTutorials\FMOD Playback States\Assets\FMOD Projekt\FMOD
+    Playback States\Build\Desktop\Master.strings.bank
+  SubDir: 
+  lastModified: 636987282106538161
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 800
+  Exists: 1
